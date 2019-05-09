@@ -11,6 +11,6 @@ import java.util.List;
  */
 @Mapper
 public interface UserMapper {
-    @Select("select id,name,age from user where id = ?")
+    @Select("select id,name,age from user")
     List<User> listUsers();
 }
