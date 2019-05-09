@@ -8,13 +8,8 @@ import java.util.List;
 
 /**
  * Created by lwx on 2019/5/9.
- *
- * UserMapper.xml不生效，改为用@Mapper/@Select方式
- *
- *
  */
 @Mapper
 public interface UserMapper {
-    //@Select("select id,name,age from user")
     List<User> listUsers();
 }

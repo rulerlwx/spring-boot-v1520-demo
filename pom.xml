@@ -37,6 +37,8 @@
         <module>26-quartz-demo</module>
         <module>27-spring-boot-quartz</module>
         <module>28-spring-boot-my-code-snippet</module>
+        <module>29-spring-boot-mybatis-annotation</module>
+        <module>30-spring-boot-mybatis-xml</module>
     </modules>
 
     <parent>
