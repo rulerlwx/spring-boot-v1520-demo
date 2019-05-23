@@ -17,7 +17,7 @@ import com.bjsxt.pojo.Users;
 @Controller
 public class UsersController {
 	/**
-	 * 
+	 *
 	 * 如果想为传递的对象更改名称，可以使用@ModelAttribute("aa")这表示当前传递的对象的key为aa。
 	 * 那么我们在页面中获取该对象的key也需要修改为aa
 	 * @param users

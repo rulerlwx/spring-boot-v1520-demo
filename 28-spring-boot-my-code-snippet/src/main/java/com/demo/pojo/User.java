@@ -1,10 +1,15 @@
 package com.demo.pojo;
 
+import org.hibernate.validator.constraints.NotBlank;
+
+import javax.validation.constraints.Min;
+
 /**
  * Created by lwx on 2019/5/9.
  */
 public class User {
     private Integer id;
+    @NotBlank
     private String name;
     private Integer age;
 
