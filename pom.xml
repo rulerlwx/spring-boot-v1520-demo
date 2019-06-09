@@ -39,6 +39,7 @@
         <module>28-spring-boot-my-code-snippet</module>
         <module>29-spring-boot-mybatis-annotation</module>
         <module>30-spring-boot-mybatis-xml</module>
+        <module>31-spring-boot-atguigu-crud</module>
     </modules>
 
     <parent>
